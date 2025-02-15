@@ -1,0 +1,256 @@
+.Home-Header {
+  background-image: url('./assets/main-2.fI9yf4oK_ZKxvK2.webp');
+  background-size: cover; /* Ensure the image covers the entire element */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Make the background image fixed */
+  height: 100vh; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  color: white;
+  text-align: center;
+}
+
+.Logo-Shit {
+  color: black;
+  border: 10px black solid;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: xx-large; /* Adjust the font size as needed */
+}
+.Logo-Shit-book {
+  color: white;
+  /* border: 10px white solid; */
+  padding: 40px 40px 300px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: xx-large; /* Adjust the font size as needed */
+}
+
+.Home-Body {
+  /* padding: 20px; */
+  background-color: #f0f0f0;
+}
+
+.serviceList-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.service-Header {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 150%;
+}
+
+.serviceList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center the service items */
+  align-items: center;
+  width: 80%; /* Adjust the width as needed */
+  max-width: 1200px; /* Optional: limit the maximum width */
+  margin: 0 auto; /* Center the service list within its container */
+  text-align: center;
+}
+
+/* Style for the service items */
+.service1, .service2, .service3 {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.service-section{
+  margin-bottom: 40px;
+}
+.image-holder {
+  height: 200px;
+  border-radius: 30px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.service1:hover .image-holder, .service2:hover .image-holder, .service3:hover .image-holder {
+  transform: translateY(-10px);
+  filter: brightness(1);
+}
+
+.service1:hover .see-more, .service2:hover .see-more, .service3:hover .see-more {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.see-more {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  color: white;
+  border: 2px solid white;
+  padding: 5px 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Header-Divider {
+  background-color: rgb(66, 66, 66);
+  padding: 20px;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.Header-Divider-Content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Header-Divider-Content h1 {
+  font-size: 300%;
+}
+
+.fade-in-element {
+  opacity: 0; /* Start with the text hidden */
+  transition: opacity 2s; /* Smooth transition for the fade-in effect */
+}
+
+.fade-in-element.fade-in {
+  opacity: 1; /* Fade in to full opacity */
+}
+
+.video-source {
+  height: 600px;
+  border-radius: 40px;
+}
+
+
+
+
+/* Features Section */
+
+
+
+.feature-head{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%; /* Adjust the width as needed */
+  height: 100%; /* Adjust the height as needed */
+  text-align: center; /* Center text inside the div */
+}
+.Booth {
+  border-top: 1px solid grey;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center; /* Center vertically */
+  padding-bottom: 60px;
+}
+
+.title {
+  margin-right: 60px;
+  width: 300px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text inside the div */
+}
+
+.content-party img{
+  height:400px;
+  border: grey 4px solid;
+  border-radius: 4px;
+  }
+.title h1{
+  font-size: 300%;
+}
+
+
+
+
+
+.book-me-now {
+  background-image: url('./assets/con-2.FAgvTVZ6_Z1lireH.webp');
+  background-size: cover; /* Ensure the image covers the entire element */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Make the background image fixed */
+  height: 900px; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  color: white;
+  text-align: center;
+  position: relative; /* Position relative to use pseudo-elements */
+}
+
+.book-me-now::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.623); /* Adjust the opacity as needed */
+  z-index: 1; /* Ensure the overlay is on top of the background image */
+}
+.book-here{
+  background-color: white;
+  color: black;
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  transition: opacity 0.5s ease, transform 0.3s ease;
+}
+
+
+.book-here:hover{
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+.book-me-now > * {
+  position: relative;
+  z-index: 2; /* Ensure the content is on top of the overlay */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Fade in to full opacity */
+  }
+}
+
+/* .Home-Body section {
+  margin-bottom: 20px;
+} */
+
+/* .Home-Body h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+} */
+
+/* .Home-Body p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+} */

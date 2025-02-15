@@ -1,0 +1,8 @@
+.MainLayout {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    margin-top: 65px; /* Adjust this value based on your navbar height */
+  }

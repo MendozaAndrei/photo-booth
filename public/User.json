@@ -1,0 +1,72 @@
+[
+  {
+    "name": "John Doe",
+    "address": "123 Maple Street, Toronto, ON, M5H 2N2",
+    "email": "john.doe@example.com",
+    "birth_date": "1990-01-01",
+    "joined_date": "2020-01-01"
+  },
+  {
+    "name": "Jane Smith",
+    "address": "456 Oak Avenue, Vancouver, BC, V6B 1A1",
+    "email": "jane.smith@example.com",
+    "birth_date": "1985-05-15",
+    "joined_date": "2019-03-22"
+  },
+  {
+    "name": "Alice Johnson",
+    "address": "789 Pine Road, Montreal, QC, H3B 2Y5",
+    "email": "alice.johnson@example.com",
+    "birth_date": "1992-07-30",
+    "joined_date": "2021-06-10"
+  },
+  {
+    "name": "Bob Brown",
+    "address": "101 Birch Lane, Calgary, AB, T2P 1J9",
+    "email": "bob.brown@example.com",
+    "birth_date": "1988-11-20",
+    "joined_date": "2018-09-05"
+  },
+  {
+    "name": "Carol White",
+    "address": "202 Cedar Drive, Ottawa, ON, K1P 5G8",
+    "email": "carol.white@example.com",
+    "birth_date": "1995-03-12",
+    "joined_date": "2022-02-14"
+  },
+  {
+    "name": "David Green",
+    "address": "303 Spruce Street, Edmonton, AB, T5J 3N6",
+    "email": "david.green@example.com",
+    "birth_date": "1983-08-25",
+    "joined_date": "2017-11-30"
+  },
+  {
+    "name": "Eve Black",
+    "address": "404 Fir Avenue, Winnipeg, MB, R3C 4T3",
+    "email": "eve.black@example.com",
+    "birth_date": "1991-04-18",
+    "joined_date": "2020-07-19"
+  },
+  {
+    "name": "Frank Blue",
+    "address": "505 Elm Road, Halifax, NS, B3J 2K9",
+    "email": "frank.blue@example.com",
+    "birth_date": "1987-12-05",
+    "joined_date": "2019-10-23"
+  },
+  {
+    "name": "Grace Red",
+    "address": "606 Willow Street, Quebec City, QC, G1R 4P5",
+    "email": "grace.red@example.com",
+    "birth_date": "1993-06-17",
+    "joined_date": "2021-01-08"
+  },
+  {
+    "name": "Hank Yellow",
+    "address": "707 Ash Lane, Victoria, BC, V8W 1N4",
+    "email": "hank.yellow@example.com",
+    "birth_date": "1989-09-29",
+    "joined_date": "2018-04-12"
+  }
+]
