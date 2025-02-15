@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-
+import img1 from './assets/image.png'
 import './aboutus.css';
 
 function AboutUs() {
@@ -32,24 +32,35 @@ function AboutUs() {
 
 
     return (
-        <main>
-            <section>
-
-
-
-
-
-
-
-                
+        <main className="Main">
+            <section className='fade-in-element'>
+                <div className="Header-Imager">
+                    <div className='Header-Bodyer'>
+                        
+                    </div>
+                </div>
             </section>
 
 
+            {/* Content Section */}
+            <div className="Gotchabit">
+
+            <div className="Iam">
+                <div className="Message-1">
+                    <img src={img1} />;
+                </div>
+
+                <div className="Message-2">
+                    {/* This will be with the words and shit ya feel me */}
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+                </div>
+            </div>
 
 
 
 
 
+            </div>
 
 
 

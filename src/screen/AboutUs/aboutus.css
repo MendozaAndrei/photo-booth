@@ -1,0 +1,53 @@
+
+
+
+.Gotchabit{
+    padding: 0px 300px 0px 300px;
+}
+.Header-Imager {
+    background-image: url('./assets/image copy.png');
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-position: center; /* Adjust the position to show the top part of the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 450px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white;
+    text-align: center;
+  }
+.Iam{
+    background-color: green;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}  
+
+
+.Message-1 img{
+    height: 350px;
+}
+
+
+
+  .Header-Bodyer {
+    background-color: white;
+    width: 1400px;
+  }
+  
+  .fade-in-element {
+    opacity: 0; /* Start with the text hidden */
+    transition: opacity 2s; /* Smooth transition for the fade-in effect */
+  }
+  
+  .fade-in-element.fade-in {
+    opacity: 1; /* Fade in to full opacity */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* Fade in to full opacity */
+    }
+  }
